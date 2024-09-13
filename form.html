@@ -7,15 +7,29 @@
 </head>
 <body>
     <h1>Form page</h1>
-    <form>
+    <form action="postForm.html">
         <label>Name:</label>
-        <input type ="text" name="txt_name">
+        <input placeholder="Enter full name..." type ="text" name="txt_name" required>
         <br>
-        <label>Phone:</label>
-        <input type ="tel" name="txt_phone">
+        <label>Email:</label>
+        <input placeholder="Enter email..." type ="email" name="txt_email" required>
+        <br>
+        <label>Investment</label>
+        <select name="Investment">
+            <option value="blank"></option>
+            <option value="10%">Invest 10%</option>
+            <option value="20%">Invest 20%</option>
+            <option value="30%">Invest 30%</option>
+        </select>
+        <br>
+        <label>Date joined:</label>
+        <input type="date" name="date" required>
+        <br>
+        <label>Active</label>
+        <input type="checkbox" name="active">
         <br>
         <br>
-        <button>order</button>
+        <button>OK</button>
     </form>
 </body>
 </html>
