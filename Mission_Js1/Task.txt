@@ -1,0 +1,26 @@
+Mission:
+Choose a topic you love.
+
+The website will have 3 pages: an INDEX page, a GALLERY page, and an additional page with a FORM table.
+
+Index Page:
+
+a. Set a title using an H1 tag.
+b. Add 2 links (each link should lead to a different page on your website).
+c. Insert an image into the page.
+d. Add a second title.
+e. Add a paragraph.
+
+Gallery Page:
+
+a. Add a title.
+b. Display 4 images, 2 images per row
+c. Add a button that will navigate back to the homepage.
+
+A page with a form:
+
+a. Add fields for name, phone number, and product selection.
+
+
+Bonus: You can create a "Thank You" page that will be shown after submitting the form.
+The page should have a link to return to the main page.
