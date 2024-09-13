@@ -6,6 +6,23 @@
     <title>SignUp</title>
 </head>
 <body>
-    
+    <h1>Sign Up:</h1>
+    <form action="postSignup.html">
+        <label>Name:</label>
+        <input placeholder="Enter full name..." type="text" name="txt_name" required>
+        <br>
+        <label>Email:</label>
+        <input placeholder="Enter email..." type ="email" name="txt_email" required>
+        <br>
+        <label>Choose subsctiption plan:</label>
+        <select name="subsctiption">
+            <option value="free">Free to Play</option>
+            <option value="30 days">30 days - 60NIS</option>
+            <option value="60 days">60 days - 100NIS</option>
+            <option value="90 days">90 days - 120NIS</option>
+        </select>
+        <br>
+        <button>SignUp</button>
+    </form>
 </body>
 </html>
