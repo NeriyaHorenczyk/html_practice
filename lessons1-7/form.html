@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Form page</h1>
+    <form action="postForm.html">
+        <label>Name:</label>
+        <input placeholder="Enter full name..." type ="text" name="txt_name" required>
+        <br>
+        <label>Email:</label>
+        <input placeholder="Enter email..." type ="email" name="txt_email" required>
+        <br>
+        <label>Investment</label>
+        <select name="Investment">
+            <option value="blank"></option>
+            <option value="10%">Invest 10%</option>
+            <option value="20%">Invest 20%</option>
+            <option value="30%">Invest 30%</option>
+        </select>
+        <br>
+        <label>Date joined:</label>
+        <input type="date" name="date" required>
+        <br>
+        <label>Active</label>
+        <input type="checkbox" name="active">
+        <br>
+        <br>
+        <button>OK</button>
+    </form>
+</body>
+</html>
