@@ -1,0 +1,2 @@
+path from terminal:
+/mnt/c/Users/ner13/Desktop/HTMLcourse/html_practice
