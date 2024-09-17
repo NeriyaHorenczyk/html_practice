@@ -1,2 +1,8 @@
 path from terminal:
 /mnt/c/Users/ner13/Desktop/HTMLcourse/html_practice
+
+shorten the path:
+PS1='\u:\W\$ '
+
+reset the path:
+PS1='\u@\h:\w\$ '
