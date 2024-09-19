@@ -1,0 +1,44 @@
+*{
+    /* border and padding inwards */
+    box-sizing: border-box;
+}
+
+body{
+    background: silver;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container-fluid{
+    width: 100%;
+    padding: 0 auto;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header{
+    min-height: 40px;
+    background: black;
+    color: white;
+}
+
+.strip{
+    min-height: 150px;
+    background: skyblue;
+    color: blue;
+}
+
+main{
+    min-height: 200px;
+    background: black;
+    color: white;
+}
+
+footer{
+    min-height: 40px;
+    background: gray;
+    color: white;
+}
