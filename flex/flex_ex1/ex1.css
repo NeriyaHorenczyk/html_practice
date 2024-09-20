@@ -140,8 +140,4 @@ main .box{
     header .burger{
         display: block;
     }
-
-    header .burger:hover{
-        border-image-width: 10px;
-    }
 }
