@@ -44,9 +44,9 @@ h1:hover{
 
 
 .pic3{
-  /* transition: 800ms; */
+  transition: 800ms;
 }
 
 .pic3:hover{
-  filter: invert(100) ;
+  filter: invert(100);
 }
