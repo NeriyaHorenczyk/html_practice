@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function init(){
+            declareEvents();
+        }
+
+        function declareEvents(){
+            //old method
+            //document.getElementById("orange_btn").onclick = changeH1Orange;
+
+            //better method
+            document.getElementById("orange_btn").addEventListener("click", changeH1Orange)
+        }
+
+        function changeH1Red(){
+            document.getElementById("idH1").style.color="red";
+        }
+        function changeH1Green(){
+            document.getElementById("idH1").style.color="green";
+        }
+        function changeH1Blue(){
+            document.getElementById("idH1").style.color="blue";
+        }
+        function changeH1Orange(){
+            document.getElementById("idH1").style.color="orange";
+        }
+        function reset(){
+            document.getElementById("idH1").style.color="black";
+        }
+    </script>
+    <link rel="stylesheet" href="lesson1/style.css">
+</head>
+<body onload="init()">
+    <h1 id="idH1">Choose color you like:</h1>
+    <button onclick="changeH1Red()">Red</button>
+    <button onclick="changeH1Blue()">Blue</button>
+    <button onclick="changeH1Green()">Green</button>
+    <button id="orange_btn">Orange</button>
+    <button onclick="reset()">Reset Color</button>
+    
+</body>
+</html>
