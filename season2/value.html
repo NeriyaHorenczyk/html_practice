@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lesson1/style.css">
+    <script>
+        function init(){
+
+        }
+
+        function changeColor(){
+            document.querySelector("#id_h1").innerHTML = document.querySelector("#id_input").value;
+            document.querySelector("#id_h1").style.color= document.querySelector("#id_input").value;
+        }
+
+        function changeFont(){
+            document.querySelector("#id_h2").style.color= document.querySelector("#id_select").value;
+        }
+    </script>
+</head>
+<body onload="init()">
+    <h1 id="id_h1">Enter your favorite color:</h1>
+    <input type="text" id="id_input" oninput="changeColor()">
+    <button onclick="changeColor()">change Color</button>
+
+    <h2 id="id_h2">Choose your color:</h2>
+    <select id="id_select" onchange="changeFont()">
+        <option value="black">defualt</option>
+        <option value="red">red</option>
+        <option value="green">green</option>
+        <option value="blue">blue</option>
+    </select>
+</body>
+</html>
